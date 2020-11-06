@@ -6,7 +6,7 @@ garden = [
   [0, 0, 0],
 ];
 
-console.assert(lunchCount(garden) === 0);
+console.assert(lunchCount(garden) === 0,1);
 
 garden = [
   [1, 1, 1],
@@ -14,7 +14,7 @@ garden = [
   [9, 1, 9],
 ];
 
-console.assert(lunchCount(garden) === 3);
+console.assert(lunchCount(garden) === 3,2);
 
 garden = [
   [1, 1, 1],
@@ -22,7 +22,7 @@ garden = [
   [1, 1, 1],
 ];
 
-console.assert(lunchCount(garden) === 9);
+console.assert(lunchCount(garden) === 9,3);
 
 garden = [
   [9, 9, 9, 9],
@@ -31,7 +31,7 @@ garden = [
   [9, 9, 1, 0],
 ];
 
-console.assert(lunchCount(garden) === 6);
+console.assert(lunchCount(garden) === 6,4);
 
 
 garden = [
@@ -41,6 +41,6 @@ garden = [
   [9, 3, 0, 4, 2, 0, 3],
 ];
 
-console.assert(lunchCount(garden) === 15);
+console.assert(lunchCount(garden) === 15,5);
 
 console.log("All tests ran");
